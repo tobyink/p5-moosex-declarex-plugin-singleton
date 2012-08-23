@@ -1,0 +1,8 @@
+# This file provides instructions for packaging.
+
+`MooseX-DeclareX-Plugin-singleton`
+	perl_version_from m`MooseX::DeclareX::Plugin::singleton`;
+	version_from      m`MooseX::DeclareX::Plugin::singleton`;
+	readme_from       m`MooseX::DeclareX::Plugin::singleton`;
+	test_requires     p`Test::More 0.61`  .
+
