@@ -2,7 +2,7 @@ package MooseX::DeclareX::Plugin::singleton;
 
 BEGIN {
 	$MooseX::DeclareX::Plugin::singleton::AUTHORITY = 'cpan:TOBYINK';
-	$MooseX::DeclareX::Plugin::singleton::VERSION   = '0.002';
+	$MooseX::DeclareX::Plugin::singleton::VERSION   = '0.003';
 }
 
 use Moose;
