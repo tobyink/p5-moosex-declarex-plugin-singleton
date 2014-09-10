@@ -1,0 +1,7 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/MooseX-DeclareX-Plugin-singleton/project>
+	deps:runtime-requirement         [ deps:on "MooseX::Singleton"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "MooseX::DeclareX"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ].
+
